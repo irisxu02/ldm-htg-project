@@ -5,10 +5,10 @@ This is a final coding project for CPSC 440, 2025 Winter Term 2. We base our wor
 Download the [IAM Handwriting dataset](https://fki.tic.heia-fr.ch/databases/iam-handwriting-database), place it in `DiffusionPen-modified/iam_data` (extracted).
 
 Download saved model weights following the original instructions from DiffusionPen. You should have:
-  DiffusionPen-mod/diffusionpen_iam_model_path/
-	DiffusionPen-mod/iam_data/
-	DiffusionPen-mod/saved_iam_data/
-	DiffusionPen-mod/style_models/
+  - DiffusionPen-mod/diffusionpen_iam_model_path/
+  - DiffusionPen-mod/iam_data/
+  - DiffusionPen-mod/saved_iam_data/
+  - DiffusionPen-mod/style_models/
 To sample single words with the model weights pre-trained on IAM:
 ```
 cd DiffusionPen-modified \
