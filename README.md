@@ -4,7 +4,11 @@ This is a final coding project for CPSC 440, 2025 Winter Term 2. We base our wor
 
 Download the [IAM Handwriting dataset](https://fki.tic.heia-fr.ch/databases/iam-handwriting-database), place it in `DiffusionPen-modified/iam_data` (extracted).
 
-
+Download saved model weights following the original instructions from DiffusionPen. You should have:
+  DiffusionPen-mod/diffusionpen_iam_model_path/
+	DiffusionPen-mod/iam_data/
+	DiffusionPen-mod/saved_iam_data/
+	DiffusionPen-mod/style_models/
 To sample single words with the model weights pre-trained on IAM:
 ```
 cd DiffusionPen-modified \
@@ -20,4 +24,4 @@ python train_sd3m.py --epochs 1000 --model_name diffusionpen --save_path diffusi
 Some image samples we've generated and saved are in the `image_samples/` and `image_samples_sd3m/` folders.
 
 ---
-Extra notes: the original DiffusionPen repo is missing a `requirements.txt`, which we add in here, but some packages needed in the environment may still be missing from the list. Setup with huggingface is not included in the description here, but an account is needed.
+Extra notes: the original DiffusionPen repo is missing a `requirements.txt`, which we add in here, but some packages needed in the environment may still be missing from the list. Setup with huggingface also required.
